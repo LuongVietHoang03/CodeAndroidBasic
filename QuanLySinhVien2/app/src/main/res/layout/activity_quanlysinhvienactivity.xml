@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quanlysinhvienactivity"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quản lý sinh viên"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="@drawable/backgroud_dialog_topleft_topright"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="Lớp"
+                    android:textSize="17dp"
+                    android:gravity="center"
+                    />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+
+                    />
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/ed_ten_sinh_vien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_input"
+                android:padding="10dp"
+                android:hint="Tên sinh viên"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/ed_ngay_sinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_input"
+                android:padding="10dp"
+                android:hint="Ngày sinh"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/ed_so_dien_thoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_input"
+                android:padding="10dp"
+                android:hint="Số điện thoại"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add_sinh_vien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:onClick="ClickAddRow"/>
+            <Button
+                android:id="@+id/btn_sua_sinh_vien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sửa"
+                android:layout_marginLeft="20dp"
+                android:onClick="editRow"/>
+
+            <Button
+                android:id="@+id/btn_delete_sinh_vien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xóa"
+
+                android:layout_marginLeft="20dp"
+                android:onClick="deleteRow"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#41DA98"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STT"
+                android:textSize="14dp"
+                android:textColor="#333"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lớp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="#333"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và Tên"
+                android:layout_marginLeft="45dp"
+                android:textSize="14dp"
+                android:textColor="#333"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày sinh"
+                android:layout_marginLeft="60dp"
+                android:textSize="14dp"
+                android:textColor="#333"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại"
+                android:layout_marginLeft="20dp"
+                android:textSize="14dp"
+                android:textColor="#333"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/lv_ds_thongtinsinhvien"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

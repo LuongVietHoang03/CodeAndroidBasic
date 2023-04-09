@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/tv_id_thong_tin"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:id="@+id/tv_spiner_listview"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"/>
+    <TextView
+        android:id="@+id/tv_ngaysinh"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:onClick="CallSoDienThoai"
+        android:id="@+id/tv_so_dien_thoai"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#44E4E0"
+       />
+
+
+
+
+</LinearLayout>

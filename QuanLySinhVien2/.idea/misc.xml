@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/backgound_add.xml" value="0.19" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/backgourndialog.xml" value="0.2425" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/backgroud_dialog_topleft_topright.xml" value="0.19" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/background_input.xml" value="0.19" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/background_screen.xml" value="0.252" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/border_buttom.xml" value="0.252" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/border_radius_button.xml" value="0.2425" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/listgrad.xml" value="0.2425" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/drawable/textview_border.xml" value="0.2425" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/activity_danh_sach_lop.xml" value="0.33" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/activity_main.xml" value="0.3572916666666667" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/activity_manhinhchao.xml" value="0.2975630611372381" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/activity_quan_ly_class.xml" value="0.33" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/activity_quanlysinhvienactivity.xml" value="0.33" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/custom_list_danh_sach.xml" value="0.3572916666666667" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/custom_list_spinner.xml" value="0.33" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/custom_quan_ly_class.xml" value="0.3572916666666667" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/layout/layout_custom_dialog.xml" value="0.3572916666666667" />
+        <entry key="..\:/laptrinhadr/QuanLySinhVien2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2425" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

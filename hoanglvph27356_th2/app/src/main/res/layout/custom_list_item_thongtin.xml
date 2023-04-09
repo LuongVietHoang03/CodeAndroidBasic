@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+
+    android:layout_margin="10dp"
+
+    android:background="#B9E4EA"
+
+    >
+
+    <TextView
+
+        android:id="@+id/tv_id_thongtin"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/tv_ho_ten"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/tv_so_dien_thoai"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:id="@+id/tv_note"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
